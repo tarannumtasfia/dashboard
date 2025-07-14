@@ -11,7 +11,7 @@ const projects = [
   },
   {
     id: 'movie',
-    title: 'movie website',
+    title: 'Movie website',
     description: 'A simple movie website to search, view, and manage movies.',
     iframeSrc: 'https://movie-app-ashen-iota-35.vercel.app/',
   },
