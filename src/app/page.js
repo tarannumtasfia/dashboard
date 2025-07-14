@@ -1,8 +1,7 @@
 "use client";
 
 import Navbar from "./components/Navbar";
-import Link from 'next/link';
-
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
           <img
             src="/portfolio_img.jpg"
             alt="Portfolio"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-lg transition-transform duration-300 ease-in-out hover:scale-115"
           />
         </div>
 
