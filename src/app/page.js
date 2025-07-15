@@ -21,13 +21,13 @@ export default function Home() {
         <div className="flex flex-col space-y-6 max-w-md">
           <div>
             <h3 className="text-base font-semibold text-indigo-700 mt-1">
-              Junior Software Engineer in Dhaka, Bangladesh
+              Junior Software Engineer,Dhaka, Bangladesh
             </h3>
           </div>
 
           <Link href="/contact">
             <button className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded-lg w-fit shadow transition">
-              Work out with me
+              Work with me
             </button>
           </Link>
 
