@@ -39,6 +39,8 @@ export default function Navbar() {
             >
               Contact
             </Link>
+            
+            
             {/* Skills Dropdown (click to expand) */}
             <div className="relative">
               <button
