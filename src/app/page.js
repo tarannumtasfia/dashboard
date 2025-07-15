@@ -155,7 +155,7 @@ export default function Home() {
             </a>
             {/* CV Icon */}
             <a
-              href="/cv.pdf"
+              href="/CV.pdf"
               aria-label="Download CV"
               className="rounded-full bg-white shadow hover:bg-purple-100 p-2 transition flex items-center justify-center"
               download
