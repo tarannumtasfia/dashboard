@@ -153,6 +153,24 @@ export default function Home() {
                 </g>
               </svg>
             </a>
+            {/* CV Icon */}
+            <a
+              href="/cv.pdf"
+              aria-label="Download CV"
+              className="rounded-full bg-white shadow hover:bg-purple-100 p-2 transition flex items-center justify-center"
+              download
+            >
+              <img
+                src="/cv-icon.png"
+                alt="CV Icon"
+                style={{
+                  width: "24px",
+                  height: "24px",
+                  filter:
+                    "invert(24%) sepia(94%) saturate(7470%) hue-rotate(247deg) brightness(90%) contrast(110%)",
+                }}
+              />
+            </a>
           </div>
         </div>
       </div>
