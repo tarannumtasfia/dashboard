@@ -18,7 +18,7 @@ export default function Navbar() {
               href="/"
               className="hover:text-indigo-600 font-medium text-black"
             >
-              Home
+              Portfolio
             </Link>
             <Link
               href="/projects"
@@ -26,17 +26,18 @@ export default function Navbar() {
             >
               Projects
             </Link>
-            <Link
-              href="/contact"
-              className="hover:text-indigo-600 font-medium text-black"
-            >
-              Contact
-            </Link>
+            
             <Link
               href="/skills"
               className="hover:text-indigo-600 font-medium text-black"
             >
               Skills
+            </Link>
+            <Link
+              href="/contact"
+              className="hover:text-indigo-600 font-medium text-black"
+            >
+              Contact
             </Link>
           </div>
 
@@ -79,7 +80,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="w-full text-left px-4 py-2 rounded-lg text-gray-900 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition"
             >
-              Home
+              Portfolio
             </Link>
             <Link
               href="/projects"
@@ -88,19 +89,20 @@ export default function Navbar() {
             >
               Projects
             </Link>
-            <Link
-              href="/contact"
-              onClick={() => setIsOpen(false)}
-              className="w-full text-left px-4 py-2 rounded-lg text-gray-900 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition"
-            >
-              Contact
-            </Link>
+            
             <Link
               href="/skills"
               onClick={() => setIsOpen(false)}
               className="w-full text-left px-4 py-2 rounded-lg text-gray-900 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition"
             >
               Skills
+            </Link>
+            <Link
+              href="/contact"
+              onClick={() => setIsOpen(false)}
+              className="w-full text-left px-4 py-2 rounded-lg text-gray-900 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition"
+            >
+              Contact
             </Link>
           </div>
         )}
