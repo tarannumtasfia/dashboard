@@ -19,10 +19,14 @@ export default function Home() {
 
         {/* Right profile info */}
         <div className="flex flex-col space-y-6 max-w-md">
-          <div>
-            <h3 className="text-base font-semibold text-indigo-700 mt-1">
-              Junior Software Engineer, Dhaka, Bangladesh
-            </h3>
+          <div className="flex flex-col space-y-6 max-w-md">
+            <div>
+              <p className="text-lg font-bold text-[#3e0097]">
+                Junior Software Engineer
+              </p>
+              <p className="text-base text-gray-600">at Bulipe Tech</p>
+              <p className="text-sm text-gray-500">Dhaka, Bangladesh</p>
+            </div>
           </div>
 
           <Link href="/contact">
@@ -60,9 +64,8 @@ export default function Home() {
                 style={{
                   width: "30px",
                   height: "30px",
-                  
                 }}
-                />
+              />
             </a>
             {/* Facebook */}
             {/* <a
@@ -96,9 +99,8 @@ export default function Home() {
                 style={{
                   width: "28px",
                   height: "28px",
-                  
                 }}
-                />
+              />
             </a>
 
             {/* LeetCode */}
@@ -115,7 +117,6 @@ export default function Home() {
                 style={{
                   width: "28px",
                   height: "28px",
-                  
                 }}
               />
             </a>
@@ -131,7 +132,6 @@ export default function Home() {
                 style={{
                   width: "28px",
                   height: "28px",
-                  
                 }}
               />
             </a>
@@ -148,7 +148,6 @@ export default function Home() {
                 style={{
                   width: "32px",
                   height: "32px",
-                  
                 }}
               />
             </a>

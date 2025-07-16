@@ -21,6 +21,12 @@ export default function Navbar() {
               Portfolio
             </Link>
             <Link
+              href="/experience"
+              className="hover:text-indigo-600 font-medium text-black"
+            >
+              Experience
+            </Link>
+            <Link
               href="/projects"
               className="hover:text-indigo-600 font-medium text-black"
             >
@@ -81,6 +87,13 @@ export default function Navbar() {
               className="w-full text-left px-4 py-2 rounded-lg text-gray-900 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition"
             >
               Portfolio
+            </Link>
+            <Link
+              href="/experience"
+              onClick={() => setIsOpen(false)}
+              className="w-full text-left px-4 py-2 rounded-lg text-gray-900 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition"
+            >
+              Experience
             </Link>
             <Link
               href="/projects"
