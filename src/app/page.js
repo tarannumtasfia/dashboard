@@ -146,8 +146,8 @@ export default function Home() {
                 src="/cv-icon.png"
                 alt="CV Icon"
                 style={{
-                  width: "28px",
-                  height: "28px",
+                  width: "32px",
+                  height: "32px",
                   
                 }}
               />
