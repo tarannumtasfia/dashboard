@@ -39,10 +39,16 @@ export default function Navbar() {
             >
               Contact
             </Link>
+            <Link
+              href="/skills"
+              className="hover:text-indigo-600 font-medium text-black"
+            >
+              Skills
+            </Link>
             
             
             {/* Skills Dropdown (click to expand) */}
-            <div className="relative">
+            {/* <div className="relative">
               <button
                 className="flex items-center gap-2 font-medium text-black hover:text-indigo-600 focus:outline-none"
                 onClick={() => setShowSkillsDesktop(!showSkillsDesktop)}
@@ -87,7 +93,7 @@ export default function Navbar() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
 
           {/* Mobile Toggle */}
@@ -125,9 +131,16 @@ export default function Navbar() {
             >
               Contact
             </Link>
+            <Link
+              href="/skills"
+              onClick={() => setIsOpen(false)}
+              className="w-full text-center px-4 py-2 rounded-lg text-gray-900 font-bold hover:bg-indigo-50 hover:text-indigo-700 transition"
+            >
+              Skills
+            </Link>
 
             {/* Skills Dropdown for Mobile */}
-            <div className="w-full px-2 flex flex-col items-center relative">
+            {/* <div className="w-full px-2 flex flex-col items-center relative">
               <button
                 onClick={() => setShowSkills(!showSkills)}
                 className="w-full flex flex-col items-center font-bold text-gray-900 py-2 px-4 rounded-lg hover:bg-indigo-50 hover:text-indigo-700 transition text-center ml-5"
@@ -176,7 +189,7 @@ export default function Navbar() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         )}
       </div>
