@@ -10,7 +10,7 @@ export default function ExperienceCard() {
         <img
           src="/bulipe-logo.png"
           alt="Bulipe Logo"
-          className="w-12 h-12 object-contain -mt-1"
+          className="w-16 h-16 object-contain -mt-2 hover:scale-115"
         />
 
         {/* Content */}
