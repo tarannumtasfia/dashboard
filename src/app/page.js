@@ -21,7 +21,7 @@ export default function Home() {
         <div className="flex flex-col space-y-6 max-w-md">
           <div>
             <h3 className="text-base font-semibold text-indigo-700 mt-1">
-              Junior Software Engineer,Dhaka, Bangladesh
+              Junior Software Engineer, Dhaka, Bangladesh
             </h3>
           </div>
 
@@ -58,8 +58,8 @@ export default function Home() {
                 src="/linkedin-icon.png"
                 alt="LinkedIn Icon"
                 style={{
-                  width: "24px",
-                  height: "24px",
+                  width: "30px",
+                  height: "30px",
                   
                 }}
                 />
@@ -94,8 +94,8 @@ export default function Home() {
                 src="/github-icon.png"
                 alt="Github Icon"
                 style={{
-                  width: "24px",
-                  height: "24px",
+                  width: "28px",
+                  height: "28px",
                   
                 }}
                 />
@@ -113,8 +113,8 @@ export default function Home() {
                 src="/leetcode-icon.png"
                 alt="LeetCode Icon"
                 style={{
-                  width: "24px",
-                  height: "24px",
+                  width: "28px",
+                  height: "28px",
                   
                 }}
               />
@@ -129,8 +129,8 @@ export default function Home() {
                 src="/map-icon.png"
                 alt="Map Icon"
                 style={{
-                  width: "24px",
-                  height: "24px",
+                  width: "28px",
+                  height: "28px",
                   
                 }}
               />
@@ -146,8 +146,8 @@ export default function Home() {
                 src="/cv-icon.png"
                 alt="CV Icon"
                 style={{
-                  width: "24px",
-                  height: "24px",
+                  width: "28px",
+                  height: "28px",
                   
                 }}
               />
