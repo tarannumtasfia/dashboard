@@ -52,7 +52,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="rounded-full bg-white shadow hover:bg-indigo-100 p-2 transition flex items-center justify-center"
+              className="hover:scale-115 p-2 transition flex items-center justify-center"
             >
               <img
                 src="/linkedin-icon.png"
@@ -88,7 +88,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
-              className="rounded-full bg-white shadow hover:bg-indigo-50 p-2 transition"
+              className="hover:scale-115  p-2 transition"
             >
               <img
                 src="/github-icon.png"
@@ -107,7 +107,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LeetCode"
-              className="rounded-full bg-white shadow hover:bg-purple-100 p-2 transition flex items-center justify-center"
+              className="hover:scale-115 p-2 transition flex items-center justify-center"
             >
               <img
                 src="/leetcode-icon.png"
@@ -123,28 +123,23 @@ export default function Home() {
             <a
               href="/map"
               aria-label="Map"
-              className="rounded-full bg-white shadow hover:bg-purple-100 p-2 transition flex items-center justify-center"
+              className=" hover:scale-115 p-2 transition flex items-center justify-center"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-6 h-6"
-              >
-                <g>
-                  <circle cx="12" cy="12" r="12" fill="#fff" />
-                  <path
-                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"
-                    fill="#8B5CF6"
-                  />
-                </g>
-              </svg>
+              <img
+                src="/map-icon.png"
+                alt="Map Icon"
+                style={{
+                  width: "24px",
+                  height: "24px",
+                  
+                }}
+              />
             </a>
             {/* CV Icon */}
             <a
               href="/CV.pdf"
               aria-label="Download CV"
-              className="rounded-full bg-white shadow hover:bg-purple-100 p-2 transition flex items-center justify-center"
+              className="hover:scale-115 p-2 transition flex items-center justify-center"
               download
             >
               <img
