@@ -61,7 +61,7 @@ export default function Navbar() {
           {/* Brand (logo on right side) */}
           <Link href="/contact" className="flex items-center space-x-2">
             <img
-              src="/portfolio_img.jpg"
+              src="/logo.png"
               alt="Tasfia Tarannum"
               className="w-8 h-8 rounded-full object-cover border border-[#3e0097]"
             />
