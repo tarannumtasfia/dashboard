@@ -55,7 +55,7 @@ export default function ProjectDetails({ params }) {
       </h1>
       <iframe
         src={project.iframeSrc}
-        className="w-full h-[100vh]  rounded-xl shadow-xl border border-gray-300"
+        className="w-full h-[100vh] "
         title={project.title}
       ></iframe>
     </main>
