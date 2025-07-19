@@ -34,6 +34,17 @@ const projects = [
     iframeSrc: "https://tarannumtasfia.github.io/e-school/",
     bg: "bg-blue-100",
   },
+  {
+    id: "crudapp",
+    title: "Full-Stack CRUD App",
+    role: "User Management System",
+    tags: ["React", "MongoDB", "Express", "Node.js"],
+    logo: "/portfolio_img.jpg",
+    description:
+      "A full-stack application to manage users. Features include registration, login, and CRUD operations uisng postman.",
+    iframeSrc: "https://crud-frontend-ten-virid.vercel.app/",
+    bg: "bg-purple-100",
+  },
 ];
 
 export default function Projects() {
