@@ -53,14 +53,14 @@ export default function ProjectDetails({ params }) {
       <h1 className="text-3xl font-bold mb-4 text-indigo-800">
         {project.title}
       </h1>
-      <div className="w-full h-[100vh] bg-gradient-to-br from-sky-50 to-indigo-100 rounded shadow-lg overflow-hidden">
+
     <iframe
       src={project.iframeSrc}
       className="w-full h-full"
       title={project.title}
       style={{ backgroundColor: "transparent" }}
     />
-  </div>
+ 
     </main>
   );
 }
