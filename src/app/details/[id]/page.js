@@ -32,7 +32,7 @@ const projects = [
     description:
       "A full-stack application to manage users. Features include registration, login, and CRUD operations uisng postman.",
     iframeSrc: "https://crud-frontend-iota-one.vercel.app/",
-    bg: "bg-purple-100",
+    
   },
 ];
 
