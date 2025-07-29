@@ -45,6 +45,18 @@ const projects = [
     iframeSrc: "https://crud-frontend-iota-one.vercel.app/",
     bg: "bg-purple-100",
   },
+  {
+  id: "courier",
+  title: "Courier Package Tracker",
+  role: "Real-Time Package Tracker",
+  tags: ["Next.js", "Socket.IO", "MongoDB", "Tailwind"],
+  logo: "/portfolio_img.jpg", // update this if you have a custom image
+  description:
+    "A real-time package tracking system with alerting and drill-down views for dispatchers.",
+  iframeSrc: "https://courier-tracker-frontend-eosin.vercel.app/",
+  bg: "bg-yellow-100",
+},
+
 ];
 
 export default function Projects() {
